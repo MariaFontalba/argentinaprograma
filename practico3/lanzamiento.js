@@ -1,9 +1,12 @@
-for(let i = 10; i >= 0 ; i--){
-    console.log(i);
-    if (i == 10){
-        console.log("Cuenta regresiva 10");
-      }else if(i == 0){
-        console.log("Lanzamiento!");
-      }    
+for(let i = 10; i >= 0; i--){
+  switch (i){
+      case 10:
+          console.log("Cuenta regresiva 10")
+          break
+      case 0:
+          console.log("Lanzamiento!")
+          break
+      default:
+          console.log(i)
+  }
 }
-  
